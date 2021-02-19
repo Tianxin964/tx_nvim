@@ -1,0 +1,70 @@
+{
+  "coc.preferences.formatOnSaveFiletypes": [
+    "css",
+    "markdown",
+    "javascript",
+    "graphql",
+    "html",
+    "yaml",
+    "json",
+    "python"
+  ],
+  // python config
+  "python.linting.enabled": true,
+  "python.linting.pylintEnabled": true,
+  "pyright.disableLanguageServices": false,
+  "snippets.ultisnips.directories": [
+    "UltiSnips",
+    "~/.config/nvim/utils/snips"
+  ],
+  // explorer
+  "explorer.width": 30,
+  "explorer.icon.enableNerdfont": true,
+  "explorer.previewAction.onHover": false,
+  "explorer.keyMappings.global": {
+    "<cr>": [
+      "expandable?",
+      "expand",
+      "open"
+    ],
+    "v": "open:vsplit"
+  },
+  "coc.source.emoji.filetypes": [
+    "markdown"
+  ],
+  "coc.source.emoji.triggerCharacters": [
+    "TRIGGERCHAR"
+  ],
+  // coc-translator
+  "translator.toLang": {
+    "type": "string",
+    "description": "Target language type"
+  },
+  "translator.engines": {
+    "type": "array",
+    "default": [
+      "bing",
+      "google",
+      "youdao",
+      "haici"
+    ]
+  },
+  "translator.enableBorder": {
+    "type": "boolean",
+    "default": true
+  },
+  "translator.enableHover": {
+    "type": "boolean",
+    "default": false,
+    "description": "Translate when mouse hover"
+  },
+  "translator.window.maxWidth": {
+    "type": "number",
+    "default": 999
+  },
+  "translator.window.maxHeight": {
+    "type": "number",
+    "default": 999
+  },
+  "coc.preferences.extensionUpdateCheck": "daily"
+}
